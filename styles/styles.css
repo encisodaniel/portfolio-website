@@ -1,0 +1,112 @@
+* {
+    text-decoration: none;
+}
+body {
+    background-color: lightslategray;
+    justify-content: center;
+
+}
+html {
+    font-size: 16px;
+}
+
+header {
+
+
+}
+
+.top-banner {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(84, 100, 115);
+    margin-top: 0;
+    width: 100%;
+
+}
+
+.top-banner li{
+    display: inline-block;
+    padding: 20px 80px;
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+.top-banner li:hover, li a:hover {
+    background-color: black;
+    color: yellow;
+
+}
+li a {
+    color: white;
+}
+
+main {
+    padding: 0;
+}
+
+.banner div {
+    display: inline-block;
+}
+
+
+.banner div h1 {
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 5rem;
+}
+
+.banner div h1:hover {
+    color: yellow;
+}
+
+#gcity {
+    padding-left: 20px;
+    background-image: url('/Users/ddeys93/Desktop/Projects/codecademy/starting 1/resources/images/Dromoland-Castle-Golf-Country-Club.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+#castle img{
+    padding-left: 20%;
+    padding-top: 0;
+    height: 70%;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+.special-guests {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+.special-guests div{
+    display: flex;
+    justify-content: space-around;
+
+}
+.special-guests div img {
+    max-width: 50%;
+}
+.locations img {
+    max-width: 100%;
+}
+
+.what {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.what div {
+    display: flex;
+    overflow: scroll;
+}
+
+.what div figure img{
+    width: 400px;
+    height: auto;
+    display: block;
+}

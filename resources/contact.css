@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,700;0,800;1,800&family=Playfair+Display:ital,wght@0,500;0,700;0,800;1,700;1,800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+
+}
+body {
+    font-family: 'Playfair Display', serif;
+    height: 700vh;
+}
+a {
+    color: slateblue;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-3) 0;
+    background-color: rgb(38, 35, 63);
+    box-shadow: 5px 5px 10px .1px rgb(83, 94, 98);
+
+
+
+}
+.nav h2 {
+    color: white;
+    align-items: center;
+    position: relative;
+    margin-left: 20px;
+}
+
+.nav h2:hover {
+    color: rgb(190, 165, 1);
+}
+
+.top-banner {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: 0px;
+    margin-left: auto;
+
+
+  }
+.top-banner li {
+    display: block;
+    padding: 20px 50px 40px 50px;
+    align-items: center;
+    -webkit-align-items: center;
+    height: 60px;
+
+}
+
+.top-banner li:hover {
+    background-color: rgb(160, 171, 183);
+
+}
+
+
+h1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 30px;
+}
